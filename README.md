@@ -1,4 +1,2 @@
 # ps-grade-calc
 
-Mike
-
