@@ -3,7 +3,7 @@
  * - event binding
  * - refreshing display of courses
  */
-window.onload = function() {
+window.addEventListener( 'load', function() {
 	// add course button
 	document.querySelector('#add-course').addEventListener( 'click', showCourseForm );
 	// add course cancel button
@@ -21,7 +21,7 @@ window.onload = function() {
 	// refresh details display
 	refreshCourseList();
 
-}
+});
 
 /**
  * Reads from local storage and draws the courses in the master panel
