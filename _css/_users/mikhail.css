@@ -1,3 +1,67 @@
 body {
-	background-color: rgba(255,0,255,0.3);
+	background-color: #303030;
+}
+
+#course-list-container a ,
+#add-grade-item {
+	color: #fff;
+	background-color: #2196F3;
+	margin-top: 0;
+}
+
+#course-list li {
+	background-color: #424242;
+	border-bottom: 1px solid #212121;
+}
+
+#course-list li div.wrapper span.name {
+	color: #fff;
+}
+#course-list li div.wrapper span.code {
+	color: #fff;
+	opacity: 0.7;
+}
+
+.master {
+	width: 20%;
+}
+
+.detail {
+	width: 80%;
+	background-color: #424242;
+}
+
+#course-details header {
+	background-color: #0D47A1;
+	color: #fff;
+}
+
+#grade-item-list {
+	padding-top: 20px;
+	background-color: #E0E0E0;
+}
+
+#grade-item-list th:nth-child(1), #grade-item-list td:nth-child(1) {
+	width: 26%;
+}
+#grade-item-list th:nth-child(6), #grade-item-list td:nth-child(6) {
+	width: 70%;
+}
+
+#grade-item-list .graph .container {
+	border-color: #616161;
+	background-color: #424242;
+}
+
+#grade-item-list .graph .container .target {
+	background-color: #BBDEFB;
+	opacity: 0.9;
+}
+#grade-item-list .graph .container .earned {
+	background-color: #2196F3;
+	opacity: 0.9;
+}
+#grade-item-list .graph .container .lost {
+	background-color: #0D47A1;
+	opacity: 0.9;
 }
