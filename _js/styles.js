@@ -13,3 +13,8 @@ window.addEventListener( 'load', function(){
 	}
 
 });
+
+// TODO:
+// add an 'onhashchange' function
+// to remove previous stylesheet
+// and add the new one 
